@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Funnel+Display:wght@300..800&family=Ga+Maamli&family=Gruppo&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Orbitron:wght@400..900&family=Pacifico&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content
+{ 
+	width:100%;
+	display:grid;
+	grid-template-columns: 100px 600px 600px 50px 50px 50px 50px;
+	line-height: 10vh;
+	font-size:18px;
+}
+.content .bars
+{
+	padding-left:50px;
+}
+.content .libas
+{
+	 font-family: "Bokor", system-ui;
+	 font-size:25px;
+	 color: #7C1D85;
+} 
+/*              img*/
+.home
+{
+	width: 100%;
+	margin:20px 0px 10px 50px;
+	font-family: "Kanit", serif;
+}
+.home .img img
+{
+   height:500px;
+   width:400px;
+}
+.home .home1
+{
+	display: flex;
+	gap:50px;
+}
+.fa-star
+{
+	color:#FF3B8B;
+}
+.home .home1 .Purple1
+{
+  line-height:30px;
+  font-size:15px;
+}
+.home .home1 .Purple h2
+{
+	font-size:25px;
+}
+.home .home1 .Purple1 .box
+{
+	padding: 10px 20px;
+	font-size:13px;
+	width:350px;
+	background-color:lightgrey;
+	margin: 10px 0;
+}
+.home .Purple .size
+{
+	display:grid;
+	grid-template-columns:1fr 100px;
+}
+.home .home1 .Purple .circle
+{
+	display: flex;
+	column-gap:10px;
+	margin:20px 0px;
+	color:purple;
+}
+.home .home1 .circle .xs
+{
+	height:40px;
+	width:40px;
+	border: 1px solid purple;
+	border-radius:50%;
+	text-align: center;
+	line-height:40px;
+}
+.home .home1 .circle .xs:hover
+ {
+ 	color:wheat;
+ 	background-color:purple;
+ }
+.home .home1 .Purple .Express
+{
+	line-height:40px;
+	font-weight:200;
+	margin-bottom:10px;
+}
+.home .home1 .btn button
+{
+	padding: 10px 160px 10px 160px;
+	font-weight:900;
+	background-color:purple;
+	letter-spacing: 5px;
+	color:white;
+	margin-bottom:30px;
+}
+.home .home1 .btn button:hover
+{
+   background-color: #A349A4;
+}
+.home .home1 .note
+{
+	border-bottom:1px solid gray;
+	padding:20px 0px;
+	letter-spacing:10px;
+}
+.home .home1 select
+{
+    border: 0;
+	outline: 0;
+	font-weight:700;
+}
+.home .home1 .Purple input
+{
+  padding: 10px 160px 10px 160px;
+  margin: 10px 0px 30px 0px;}
+        
+        /*Customer Reviews*/
+.review h1
+{
+	text-align:center;
+	margin:20px 0px;
+   font-family: "Kanit", serif;
+    font-weight:500;
+ }
+.bigbox
+{
+	display:flex;
+	width:100%;
+	margin:20px 0px 0px 100px;
+	font-family: "Kanit", serif;
+	column-gap:20px;
+
+}
+.box1
+{
+	width:430px;
+	border:1px solid transparent;
+	height:300px;
+	box-shadow: 1px 2px 5px 0px;
+	padding: 50px 0px 0px 20px;
+	gap: 20px;
+}
+.bigbox .box1 .bo
+{
+	display:flex;
+}
+.bigbox .box1 .bo .num
+{
+	margin-left:240px;
+}
+.bigbox .box1 .user .user1
+{
+	height:40px;
+	width:40px;
+	line-height:40px;
+	text-align: center;
+	border:1px solid pink;
+	background-color:#C9C9C9;
+}
+.bigbox .box1 .user
+{
+	display:flex;
+	color:#FF3B8B ;
+	font-size: 20px;
+	column-gap:10px;
+}
+.bigbox .box1 .total
+{
+	padding:15px 0 ;
+	font-size:20px;
+}
+.bigbox .box1 .fill a
+{
+	color:#FF3B8B;
+	text-decoration: underline;
+}
+.bigbox .box1 .fill
+{
+	padding-top:50px;
+}
+/*                               you may also like*/
+.may
+{
+	width:100%;
+	font-family: "Kanit", serif;
+}
+.may h1
+{
+	text-align:center;
+	margin: 50px 0px;
+}
+.image
+{
+	display: flex;
+  column-gap:5px;
+  margin-left:50px;
+}
+.image .img img
+{
+	width:350px;
+}
+.image .img .omg
+{
+	padding: 10px 0px 0px 20px;
+}
+.image .img .omg1
+{
+	padding:10px 0px 0px 20px;
+}
+/*                                      recent  popular*/
+.recent h1
+{
+  text-align: center;
+  margin: 100px 0px 50px 0px;
+  font-weight:200;
+  font-family: "Kanit", serif;
+}
+.popular h2
+{
+	margin:0px 0px 10px 50px;
+	font-weight:200;
+	font-family: "Kanit", serif;
+}
+.mainbox  a
+{
+	font-size:15px ;
+	color:black;
+	text-decoration: underline;
+	padding:30px 0px 0px 50px ;
+	font-family: "Kanit", serif;
+	font-weight:200;
+}
+.party
+{
+	padding-top:10px;
+}
+/*                                             contact*/
+
+.mail
+{
+	margin: 50px 0;
+	width:100%;
+	background-color: pink;
+	font-family: "Kanit", serif;
+	color: #7C1D85;
+	font-weight:200;
+}
+.mail .mail1
+{
+	padding: 50px 50px;
+	/*display: grid;
+	grid-template-columns: 400px 300px 300px 400px;*/
+	display: flex;
+	justify-content:space-evenly;
+}
+
+.mail .mail1 .care
+{
+	padding-bottom:10px;
+}
+.mail .mail1 .Discover
+{
+	padding:50px 0px 20px 0px;
+}
+.mail .mail1  .Explore1
+{
+	line-height:2;
+	margin-top:15px;
+}
+.mail .mail1  .Explore1 a
+{
+	color: #7C1D85;
+	text-decoration: none;
+}
+.mail .mail1 .Newsletter
+{
+	line-height: 2;
+}
+.mail .mail1 .Newsletter .name input
+{
+	padding: 10px 80px 10px 80px;
+	margin-top: 10PX;
+}
+.mail .mail1 .Newsletter .follow
+{
+	letter-spacing:2px;
+	font-weight:400;
+	margin:30px 0px 10px 0px ;
+	font-size:15px;
+}
+.mail .mail1 .Newsletter .brand
+{
+	font-size:20px;
+	letter-spacing:5px;
+}
+
+
+@media(max-width:768px)
+{
+hr
+{
+	width:800px;
+}
+ .content
+ {
+ 	width:100%;
+ 	display: grid;
+ 	grid-template-columns:80px 250px 280px 70px 10px;
+ 	font-size:40px;
+ }
+ .content .bars
+{
+	padding-left:30px;
+}
+.content .user
+{
+	display: none;
+}
+                   /*home*/
+.home
+{
+	width:100%;
+	margin:20px 0px 0px 0px;
+}
+.home h4
+{
+	margin-left:20px;
+	font-size:30px;
+	width: 700px;
+}
+.home .img img
+{
+   width:800px;
+   height: auto;
+}
+.home .home1
+{
+	flex-direction:column;
+	gap:50px;
+}
+.home .home1 .Purple 
+{
+	margin:0px 0px 0px 30px;
+}
+.home .home1 .Purple h2
+{
+	font-size:36px;
+	width: 700px;
+	font-weight:400;
+}
+.home .home1 .Purple1 .box
+{
+	font-size:30px;
+	width:750px;
+}
+.home .home1 .Purple .size
+{
+	display:grid;
+	grid-template-columns:1fr 150px;
+	font-weight:200;
+	width: 700px;
+	font-size:25px;
+}
+.home .home1 .btn button
+{
+	font-weight:900;
+	font-size:25px;
+	letter-spacing:3px;
+	width:700px;
+}
+.home .home1 .Purple .Express
+{
+	line-height:60px;
+	font-size:23px;
+}
+.home .home1 select
+{
+	letter-spacing: 1px;
+	font-weight:900;
+	font-size: large;
+	width: 700px;
+}
+.home .home1 .note
+{
+	width: 700px;
+}
+.star
+{
+	font-size:25px;
+	padding:30px 0px 20px 0px;
+}
+.sku
+{
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+.sale
+{
+	font-size: 25px;
+}
+.home .home1 .circle .xs
+{
+	height:80px;
+	width:80px;
+	font-size:25px;
+	line-height:80px;
+	width:700px;
+}
+.home .home1 .Purple input
+{
+  padding:15px 150px 15px 150px;
+  margin:30px 0px 40px 0px;
+  width: 700px;
+}
+ .Purple .input
+{
+	font-size:30px;
+}
+::placeholder
+{
+	font-size:30px;
+	position:absolute;
+	left:10px ;
+}	
+/*                                 customer review	*/
+.review h1
+{
+	font-weight:400;
+	margin-top:65px;
+	width:700px;
+}
+.bigbox
+{
+	flex-direction: column	;
+	width:100%;
+	row-gap:50px;
+}
+.box1
+{
+	width:600px;
+	border:1px solid transparent;
+	height:350px;
+	box-shadow: 1px 2px 5px 0px;
+	padding: 50px 0px 0px 20px;
+}
+.bigbox .box1 .bo
+{
+	font-size:30px;
+}
+.bigbox .box1 .user .user1
+{
+	height:55px;
+	width:55px;
+	line-height:55px;
+}
+.bigbox .box1 .user
+{
+	font-size:35px;
+	column-gap:5px;
+}
+.bigbox .box1 .total
+{
+	font-size:38px;
+}
+.bigbox .box1 .better
+{
+	font-size:33px;
+}
+.bigbox .box1 .fill
+{
+	padding-top:10px;
+	font-size:25px;
+}
+/*                                        may you like*/
+.image
+{
+	flex-direction: column;
+ 
+}
+.image .img img
+{
+	 width:700px;
+   height: auto;
+}
+.may h1
+{
+	font-weight:200;
+	font-size: 50px;
+	width:700px;
+}
+.image .img .omg
+{
+	padding:10px 0px 10px 40px;
+	font-size:35px;
+	width:700px;
+}
+.image .img .omg1
+{
+	padding:10px 0px 60px 40px;
+	font-size: 30px;
+}
+/*                                    recent*/
+.recent h1
+{
+   margin:50px 0px 50px 10px;
+  font-weight:200;
+  font-family: "Kanit", serif;
+  font-size:50px;
+  width:700px;
+}
+.popular h2
+{
+	margin:0px 0px 10px 40px;
+	font-weight:200;
+	font-family: "Kanit", serif;
+	font-size: 40px;
+}
+a
+{
+	font-size:30px ;
+	color:black;
+	text-decoration: underline;
+	padding:30px 0px 0px 10px ;
+	font-family: "Kanit", serif;
+	font-weight:200;
+}
+.party
+{
+	padding-top:20px;
+}
+.mainbox
+{
+	width:780px;
+/*	height: 500px;*/
+/*	border: 1px solid black;*/
+    text-align: justify-all;
+    margin:0px 0px 0px 20px;
+}
+
+.mail
+{
+	margin: 50px 0;
+	width:790px;
+	font-weight:200;
+	font-size:30px;
+}
+.mail .mail1
+{
+	padding: 50px 50px;
+	flex-direction: column;
+	text-align: center;
+}
+.mail h3
+{
+	font-size:80px;
+
+}
+.contact .Discover
+{
+    font-size:40px;
+}
+.mail .mail1 .Newsletter .name input
+{
+	padding: 20px 200px 20px 200px;
+}
+.mail .mail1 .Newsletter .follow
+{
+	font-size:50px;
+}
+.mail .mail1 .Newsletter .brand
+{
+	font-size:40px;
+	letter-spacing:6px;
+}
+
+
+}
